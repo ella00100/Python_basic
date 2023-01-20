@@ -4,4 +4,7 @@ class Thing2():
         self.letters = letters
 
 ex = Thing2('abc')
+ex.letters = 'xyz'
+ex.name = 'dung'
 print(ex.letters)
+print(ex.name)
